@@ -1,0 +1,54 @@
+.tabela_consumo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+label {
+    margin: 1em 0 0.5em 0;
+}
+
+input {
+    margin-bottom: 1em;
+    padding: 0.4em;
+    border-radius: 0.3em;
+    border-color: #F1F1F1;
+}
+
+button {
+    margin: 1em auto;
+    padding: 0.6em;
+    width: 160px;
+    height: 55px;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    background-color: red;
+    font-size: 1.3em;
+    font-weight: 700;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+button:hover {
+    width: 165px;
+    height: 60px;
+    color: #F1F1F1;
+}
+
+@media screen and (min-width: 800px) {
+    .tabela_consumo {
+      width: 50%;
+    }
+  }
